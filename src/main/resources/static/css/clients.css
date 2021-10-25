@@ -1,0 +1,48 @@
+button.btn_id:focus{
+    outline: none;
+    box-shadow: 0 0 0 0.2rem rgb(144 229 134 / 40%);
+}
+
+div#message {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    margin-bottom: 15px;
+}
+
+#inner-message {
+    margin: 0 auto;
+}
+
+.spinner {
+  margin-right: 7px;
+  width: 10px;
+  height: 10px;
+  border: 5px solid rgba(0, 0, 0, 0.3);
+  border-radius: 50%;
+  border-left-color: #7d47ff;
+  display: none;
+  animation: spin 1s ease infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.ui-timepicker-standard {
+    z-index: 9999 !important;
+}
+
+.ui-timepicker-container {
+    z-index: 9999 !important;
+}
+
+.modal-content {
+    width: 80%;
+}
